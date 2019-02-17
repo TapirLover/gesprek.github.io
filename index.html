@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js"></script>
+	<title>Gesprek bepaler</title>
+	<style>
+	h2 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.2em;
+	}
+	</style>
+</head>
+<body onload="nunu()">
+	<h1 id="demo3"></h1>
+	<h2>Datum:
+	<input type="datetime-local" id="datumin">
+	<button type="button" onclick="getDate()">
+		HELP
+	</button>
+	<button type="button" onclick="nuu()">
+		Reset
+	</button>
+	</h2> 
+	
+	<h2 id="demo"></h2>
+	<h2 id="demo1"></h2>
+	<h2 id="demo2"></h2>
+	<p>Het gesprek begint eerst met 1 van de uur zinnen, daar word op gereageerd met een dag zin. Als laatste nog een minuut zin<br />
+	Als de datum een even getal is begint Sophie het gesprek en reageerd Rudolf. De laatste zin wordt weer door Sophie gezegd. </p>
+	<p>
+	<b>Uur zinnen: </b><br />
+	06:xx-08:xx:
+	Klaar voor een nieuwe dag?<br />
+	09:xx -11:xx:
+	Heb je het nieuws nog gezien/gehoord?<br />
+	12:xx -15:xx:
+	Ben je een begin van de middag persoon of een eind van de middag persoon?<br />
+	16:xx -18:xx:
+	Heb je het gevoel dat de dag al bijna voorbij is?<br />
+	19:xx -21:xx:
+	Zin in vannacht of meer zin in morgen?<br />
+	22:xx -2:xx:
+	Wat is er aan de hand?<br />
+	3:xx -5:xx:
+	Wat vind je er nou echt van dat ik je ken?<br />
+	</p>
+	<p>
+	<b>Dag zinnen: </b> <br />
+	Maandag:
+	Hoe moet ik dat weten?<br />
+	Dinsdag:
+	Waar heb je het over? Er gebeurt niks<br />
+	Woensdag:
+	Ah joh, met mij gaat het wel goed<br />
+	Donderdag:
+	Nee, ik zit er een beetje tussen in denk ik<br />
+	Vrijdag:
+	Meh, ups en downs. Weet je zoals het gaat<br />
+	Zaterdag:
+	Hangt er echt heel erg vanaf<br />
+	Zondag:
+	Dat spreekt voor zich, want het is natuurlijk zondag<br />
+	</p>
+	<p>
+	<b>Minuut zinnen: </b> <br />
+	xx:00-xx:14:
+	Oh nou met mij gaat wel goed hoor, bedankt voor vragen<br />
+	xx:15- xx:29:
+	Nee oke hey goed gesprek<br />
+	xx:30- xx:44:
+	Lekker weertje verder?<br />
+	xx:45- xx:59:
+	Ja, Nou ik zou bijna verbaasd zijn<br />
+	</p>
+</body>
+</html>
